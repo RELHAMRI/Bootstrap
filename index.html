@@ -1,25 +1,60 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <img src="" alt="">
-        <h1>COMPANY NAME</h1>
-        <nav>
-            <li><a href="">HOME</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">COMPANY</a></li>
-            <li><a href="">CONTACT</a></li>
+    <header class="bg-dark bg-gradient p-4">
+        <nav class="row">
+            <div class="col-4 d-flex">
+                <img src="img/logo.png" alt="" width="50px">
+                <h1 class="text-light">COMPANY NAME</h1>
+            </div>
+            <div class="col-4 d-flex">
+                <ul class="align-items-center d-flex">
+                    <li class="nav item"><a class="yellow mx-3 text-decoration-none orange" href="/">Home</a></li>
+                    <li class="nav item"><a class="yellow mx-3 text-decoration-none orange" href="/">Projects</a></li>
+                    <li class="nav item"><a class="yellow mx-3 text-decoration-none orange" href="/">Company</a></li>
+                    <li class="nav item"><a class="yellow mx-3 text-decoration-none orange" href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="class col-4">
+                <nav class="navbar text-warning">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline orange p-2 border border-warning" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+                <!-- <div class="card" style="width: 18rem;"> -->
         </nav>
     </header>
+    <section>
+        <img src="img/banner-buisnessman.jpg" class="card-img-top" alt="...">
+        <div class="text-center bg-text inner">
+            <h2 class="text-light fs-1 dosis">"Quality needs precision and time..."</h2>
+            <p class="card-text fs-4 dosis">"It is our motto here at Compagny Name, to put our knowledge at your
+                disposal to fulfill your vision."</p>
+            <p class="text-end fs-6 yellow dosis">Company name</p>
+        </div>
+    </section>
+    <section>
+        <div class="bg secondary p-4">
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
